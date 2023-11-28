@@ -1,0 +1,96 @@
+.map{
+    display: flex;
+    margin: 30px 0px;
+    gap: 30px;
+}
+.left-map{
+    flex: 1;
+}
+.right-map{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 20px;
+
+}
+.right-map h1{
+    color: #d6b65eff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.right-map p{
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+}
+.form input{
+    border: 2px solid rgba(199, 148, 47, 0.564);
+    width: 220%;
+    margin-left: -100px;
+    height: 6vh;
+    padding: 4px 8px;
+    border-radius: 5px;
+    outline: none;
+}
+.form textarea{
+    border: 2px solid rgba(199, 148, 47, 0.564);
+    margin-left: -100px;
+    padding: 4px 8px;
+    width: 220%;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+.form-checkbox{
+    width: 290%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -90px;
+    text-align: justify;
+}
+.form-checkbox p{
+    margin-left:  -60px;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+.form-checkbox span{
+    display: flex;
+    gap: 5px;
+}
+.form-submit{
+    height: 40px;
+    width: 130px;
+    background-color: #d6b65eff;
+    color: white;
+    border-radius: 30px;
+    margin: 15px 0px;
+}
+.form-submit:hover{
+    background-color: rgb(214, 186, 111);
+
+}
+@media screen and (max-width:414px) {
+    .map{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .form-checkbox{
+        width: 200%;
+
+    }
+    .form-checkbox p{
+        margin-left:  0px;
+        padding: 10px 0px;
+        font-size: 16px;
+    }
+}

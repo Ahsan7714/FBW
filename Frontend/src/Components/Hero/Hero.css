@@ -1,0 +1,35 @@
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 130vh;
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+.hero .video_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero #myVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Make the video cover the entire container */
+}
+
+.hero_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the content horizontally and vertically */
+  text-align: center;
+  color: #fff; /* Set your desired text color */
+  justify-content: center;
+  padding-top: 100px;
+}

@@ -1,0 +1,80 @@
+.bg-walpaper{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+.consultation{
+    position: absolute;
+    display: flex;
+    top: 460%;
+    justify-content: center;
+    align-items: center;
+    left: 8%;
+}
+.consultation-content{
+    display: flex;
+}
+.consultation-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 480px;
+    width: 600px;
+    background-color: #b44c9bff;
+    color: white;
+    padding: 60px;
+}
+.consultation-left p{
+    font-size: 40px;
+}
+.consultation-left h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.consultation-left button{
+    width: 150px;
+    height: 50px;
+    background-color: #d6b65eff;
+    font-weight: 600;
+    border-radius: 30px;
+}
+.consultation-left button:hover{
+
+    background-color: black;
+}
+.consultation-right img{
+    height: 480px;
+    width: 500px;
+}
+@media screen and (max-width:414px) {
+    .consultation{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 630%;
+    }
+    .consultation-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .consultation-right img{
+        height: 480px;
+        width: 90%;
+    }
+    .consultation-left{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: fit-content;
+        width: 90%;
+        background-color: #b44c9bff;
+        color: white;
+        padding: 20px;
+    }
+    .consultation-left p{
+        font-size: 30px;
+    }
+    .consultation-left h1{
+        font-size: 40px;
+    }
+}
